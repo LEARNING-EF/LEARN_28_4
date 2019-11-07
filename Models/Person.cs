@@ -16,6 +16,9 @@
 
 		// **********
 		//public string SomeProperty { get; set; }
+		/// <summary>
+		/// Rename!
+		/// </summary>
 		public string SomeNewProperty { get; set; }
 		// **********
 	}
