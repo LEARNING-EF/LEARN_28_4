@@ -11,7 +11,7 @@
 			//DropColumn("dbo.People", "SomeProperty");
 
 			// این ویژگی متاسفانه در
-			// Sql Server Compact Edtion
+			// Sql Server Compact Edtion (CE)
 			// کار نمی‌کند
 			RenameColumn("dbo.People", "SomeProperty", "SomeNewProperty");
 

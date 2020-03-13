@@ -16,6 +16,14 @@
 		{
 		}
 
+		// **********
 		public System.Data.Entity.DbSet<Person> People { get; set; }
+		// **********
+
+		protected override void OnModelCreating
+			(System.Data.Entity.DbModelBuilder modelBuilder)
+		{
+			base.OnModelCreating(modelBuilder);
+		}
 	}
 }
