@@ -14,8 +14,6 @@
 			// Sql Server Compact Edtion (CE)
 			// کار نمی‌کند
 			RenameColumn("dbo.People", "SomeProperty", "SomeNewProperty");
-
-			//AddColumn("dbo.People", "SomeRequiredProperty", c => c.String(defaultValue: "Hello", defaultValueSql: "Hello"));
 		}
 
 		public override void Down()
